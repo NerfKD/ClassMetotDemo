@@ -80,7 +80,7 @@ namespace ClassMetotDemo
             musteriManager.Sil(musteri6);
             musteriManager.Sil(musteri8);
 
-            //Tekrar müşterileri listeliyoruz. 3 adet
+            //Tekrar müşterileri listeliyoruz. 5 adet
             musteriManager.Listele();
 
         }

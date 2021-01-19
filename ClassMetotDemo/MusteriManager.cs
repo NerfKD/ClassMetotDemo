@@ -23,6 +23,7 @@ namespace ClassMetotDemo
             siralama++;
             //görsel olarak çizgi ekliyoruz.
             Console.WriteLine("-------------------------------------------------");
+            
         }
 
         public void Listele()
@@ -42,6 +43,7 @@ namespace ClassMetotDemo
         {
             //eklenen tüm müşterileri musteriler adlı listte tuttuğumuz için listden ilgili müşteri kaydını remove ile siliyoruz.
             musteriler.Remove(musteri);
+
             //müşteri ID sini belirterek silme işlemini ekrana yazıyoruz.
             Console.WriteLine(musteri.Id + " Id'li müşteri silinmiştir.");
             Console.WriteLine("-------------------------------------------------");
